@@ -1,0 +1,16 @@
+PODS:
+  - SMMessage (0.1.0)
+
+DEPENDENCIES:
+  - SMMessage (from `../`)
+
+EXTERNAL SOURCES:
+  SMMessage:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SMMessage: f74abcc3fef9797b9cd7b03c004838f5b2daf611
+
+PODFILE CHECKSUM: 789a645188b8eabe0116e6431ee4e201135b88f5
+
+COCOAPODS: 1.10.1

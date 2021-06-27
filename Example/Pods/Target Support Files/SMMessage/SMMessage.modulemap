@@ -1,0 +1,6 @@
+framework module SMMessage {
+  umbrella header "SMMessage-umbrella.h"
+
+  export *
+  module * { export * }
+}

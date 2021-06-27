@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '13.0'
+
+target 'SMMessage_Example' do
+  pod 'SMMessage', :path => '../'
+
+  target 'SMMessage_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
