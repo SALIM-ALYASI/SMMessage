@@ -109,13 +109,21 @@
 		0278CC3E5EAAC704CB986FA0142A4771 /* SMMessage */ = {
 			isa = PBXGroup;
 			children = (
-				0933B8892689167C007CD90C /* Downloadingpictures.swift */,
-				0933B88D26891687007CD90C /* downloadingpictures.xib */,
+				093D419F26898FDF0098F7A1 /* Message */,
 				7E7A3EA5D0AC0DF9E2BCFDB372DE6BE0 /* Pod */,
 				9A9CA53F7624688B7B805972E0A02FF8 /* Support Files */,
 			);
 			name = SMMessage;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		093D419F26898FDF0098F7A1 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				0933B8892689167C007CD90C /* Downloadingpictures.swift */,
+				0933B88D26891687007CD90C /* downloadingpictures.xib */,
+			);
+			path = Message;
 			sourceTree = "<group>";
 		};
 		0C05EC5EBF873E1153F8392477447C36 /* Pods-SMMessage_Example */ = {
