@@ -10,21 +10,25 @@ import UIKit
 import SMMessage
 class ViewController: UIViewController {
      
-    let Downl =  Downloadingpictures()
+   // let Downl =  ActivityIndicatorMessageView()
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
-    @IBAction func ccc(_ sender: Any) {
-        Device.init().Message("ee")
-
-    }
+   
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+       // ActivityIndicatorMessageView.
     }
-
+    
+   
+    
+    @IBAction func button(_ sender: UIButton) {
+        
+        Message.init().showActivityIndicator("String")
+    }
+    
 }
 

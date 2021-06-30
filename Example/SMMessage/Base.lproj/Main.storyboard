@@ -19,13 +19,24 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n0e-NH-BMi" customClass="Arched" customModule="Pods_SMMessage_Example">
-                                <rect key="frame" x="123" y="291" width="150" height="90"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dkf-mR-ixL">
+                                <rect key="frame" x="65.5" y="275" width="244" height="117"/>
+                                <color key="backgroundColor" red="0.050980392159999999" green="0.73725490199999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="117" id="Rcc-gs-8yO"/>
+                                    <constraint firstAttribute="width" constant="244" id="qVb-ID-W1F"/>
+                                </constraints>
                                 <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="button:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="oLO-FI-X69"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Dkf-mR-ixL" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="9OC-Gh-U1s"/>
+                            <constraint firstItem="Dkf-mR-ixL" firstAttribute="centerY" secondItem="kh9-bI-dsS" secondAttribute="centerY" id="vr4-gs-Cli"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
@@ -33,9 +44,4 @@
             <point key="canvasLocation" x="21.600000000000001" y="99.400299850074973"/>
         </scene>
     </scenes>
-    <designables>
-        <designable name="n0e-NH-BMi">
-            <size key="intrinsicContentSize" width="46" height="30"/>
-        </designable>
-    </designables>
 </document>

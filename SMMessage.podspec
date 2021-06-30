@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SMMessage'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'DScrollView is UIScrollView in one line of code.'
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
