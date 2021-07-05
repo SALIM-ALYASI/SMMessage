@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		09A13D86268C554400823206 /* ViewControllerUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A13D85268C554400823206 /* ViewControllerUtils.swift */; };
-		09A13D87268C554400823206 /* ViewControllerUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A13D85268C554400823206 /* ViewControllerUtils.swift */; };
-		09A13D88268C554400823206 /* ViewControllerUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A13D85268C554400823206 /* ViewControllerUtils.swift */; };
-		09B73AD52689AE37007EE55A /* ActivityIndicatorMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B73AD42689AE37007EE55A /* ActivityIndicatorMessageView.swift */; };
-		09B73AD62689AE37007EE55A /* ActivityIndicatorMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B73AD42689AE37007EE55A /* ActivityIndicatorMessageView.swift */; };
-		09B73AD72689AE37007EE55A /* ActivityIndicatorMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B73AD42689AE37007EE55A /* ActivityIndicatorMessageView.swift */; };
+		0942D12B26930103004EDC9E /* CAShapeLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0942D12A26930103004EDC9E /* CAShapeLayer.swift */; };
+		0942D12C26930103004EDC9E /* CAShapeLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0942D12A26930103004EDC9E /* CAShapeLayer.swift */; };
+		0942D12E26930130004EDC9E /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0942D12D26930130004EDC9E /* ProgressView.swift */; };
+		0942D12F26930130004EDC9E /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0942D12D26930130004EDC9E /* ProgressView.swift */; };
+		0942D1312693016D004EDC9E /* ActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0942D1302693016D004EDC9E /* ActivityIndicatorView.swift */; };
+		0942D1322693016D004EDC9E /* ActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0942D1302693016D004EDC9E /* ActivityIndicatorView.swift */; };
+		0942D134269301B3004EDC9E /* Downloadingpictures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0942D133269301B3004EDC9E /* Downloadingpictures.swift */; };
+		0942D135269301B3004EDC9E /* Downloadingpictures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0942D133269301B3004EDC9E /* Downloadingpictures.swift */; };
 		0BFBFFB8B7277DD81A098EBAAF1ECD3E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		0DB4DD77DEF889CE3F9931A0D6A1C916 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		13135164E5023F7F71C005AA1867ECDC /* Pods-SMMessage_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CF9E22331EC9658FDB8ADCC455D7F7AD /* Pods-SMMessage_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -43,8 +45,10 @@
 
 /* Begin PBXFileReference section */
 		00747A2EA0C1EB00A6C793CE0E1F4E52 /* SMMessage-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SMMessage-Info.plist"; sourceTree = "<group>"; };
-		09A13D85268C554400823206 /* ViewControllerUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerUtils.swift; sourceTree = "<group>"; };
-		09B73AD42689AE37007EE55A /* ActivityIndicatorMessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorMessageView.swift; sourceTree = "<group>"; };
+		0942D12A26930103004EDC9E /* CAShapeLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CAShapeLayer.swift; sourceTree = "<group>"; };
+		0942D12D26930130004EDC9E /* ProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
+		0942D1302693016D004EDC9E /* ActivityIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorView.swift; sourceTree = "<group>"; };
+		0942D133269301B3004EDC9E /* Downloadingpictures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Downloadingpictures.swift; sourceTree = "<group>"; };
 		0D95C89847159DBFCB7338D3F04291B3 /* Pods-SMMessage_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SMMessage_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		0E2233C0B03EB17F1FA60C464F06C65D /* SMMessage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SMMessage-umbrella.h"; sourceTree = "<group>"; };
 		17DFFC853ABDEFF3A89F229A641D49CF /* Pods_SMMessage_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SMMessage_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -120,8 +124,10 @@
 		093D419F26898FDF0098F7A1 /* Message */ = {
 			isa = PBXGroup;
 			children = (
-				09B73AD42689AE37007EE55A /* ActivityIndicatorMessageView.swift */,
-				09A13D85268C554400823206 /* ViewControllerUtils.swift */,
+				0942D133269301B3004EDC9E /* Downloadingpictures.swift */,
+				0942D1302693016D004EDC9E /* ActivityIndicatorView.swift */,
+				0942D12D26930130004EDC9E /* ProgressView.swift */,
+				0942D12A26930103004EDC9E /* CAShapeLayer.swift */,
 			);
 			path = Message;
 			sourceTree = "<group>";
@@ -394,8 +400,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				1506B6D09DB0EFEBD5E48FBC84756BE8 /* Pods-SMMessage_Tests-dummy.m in Sources */,
-				09B73AD62689AE37007EE55A /* ActivityIndicatorMessageView.swift in Sources */,
-				09A13D87268C554400823206 /* ViewControllerUtils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,9 +407,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0942D12C26930103004EDC9E /* CAShapeLayer.swift in Sources */,
+				0942D135269301B3004EDC9E /* Downloadingpictures.swift in Sources */,
+				0942D1322693016D004EDC9E /* ActivityIndicatorView.swift in Sources */,
+				0942D12F26930130004EDC9E /* ProgressView.swift in Sources */,
 				4AD217E74D215700899AE8667B86F6D4 /* SMMessage-dummy.m in Sources */,
-				09B73AD72689AE37007EE55A /* ActivityIndicatorMessageView.swift in Sources */,
-				09A13D88268C554400823206 /* ViewControllerUtils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,9 +419,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0942D12B26930103004EDC9E /* CAShapeLayer.swift in Sources */,
+				0942D134269301B3004EDC9E /* Downloadingpictures.swift in Sources */,
+				0942D1312693016D004EDC9E /* ActivityIndicatorView.swift in Sources */,
 				2DBA4A1A2863977D534DD7DC8F7FF39E /* Pods-SMMessage_Example-dummy.m in Sources */,
-				09B73AD52689AE37007EE55A /* ActivityIndicatorMessageView.swift in Sources */,
-				09A13D86268C554400823206 /* ViewControllerUtils.swift in Sources */,
+				0942D12E26930130004EDC9E /* ProgressView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

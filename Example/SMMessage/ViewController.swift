@@ -27,7 +27,7 @@ class ViewController: UIViewController {
     
     @IBAction func button(_ sender: UIButton) {
         
-        Message.init().showActivityIndicator("String")
+//        Downloadingpictures().
     }
     
 }
